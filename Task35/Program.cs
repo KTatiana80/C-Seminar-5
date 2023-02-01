@@ -21,7 +21,7 @@ int[] CreateArrayRndInt(int size, int min, int max)
 }
 
 // Метод вывода массива
-void PrintArrey (int[] array)
+void PrintArray (int[] array)
 {
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
@@ -47,7 +47,7 @@ int ReturnNumberElements(int[] array, int min, int max)
 }
 
 int[] arr = CreateArrayRndInt(123, 0, 100);
-PrintArrey(arr);
+PrintArray(arr);
 
 int returnNumberElements = ReturnNumberElements(arr, 10, 99);
 Console.WriteLine($" -> {returnNumberElements}");

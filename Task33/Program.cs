@@ -19,7 +19,7 @@ int[] CreateArrayRndInt(int size, int min, int max)
 }
 
 // Метод вывода массива
-void PrintArrey (int[] array)
+void PrintArray (int[] array)
 {
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
@@ -47,7 +47,7 @@ bool FindNumber(int[] array, int find)
 Console.WriteLine("Укажите длину массива и число для поиска:");
 int sizeArray = Convert.ToInt32(Console.ReadLine());
 int[] arrayNumb = CreateArrayRndInt(sizeArray, -9, 9);
-PrintArrey(arrayNumb);
+PrintArray(arrayNumb);
 
 Console.WriteLine("Укажите число для поиска:");
 int numberToFind = Convert.ToInt32(Console.ReadLine());

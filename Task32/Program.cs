@@ -18,7 +18,7 @@ int[] CreateArrayRndInt(int size, int min, int max)
 }
 
 // Метод вывода массива
-void PrintArrey (int[] array)
+void PrintArray (int[] array)
 {
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
@@ -30,7 +30,7 @@ void PrintArrey (int[] array)
 }
 
 // Инверсия массива
-void InverseArrey(int[] arr)
+void InverseArray(int[] arr)
 {
     for (int i = 0; i < arr.Length; i++)
     {
@@ -40,6 +40,6 @@ void InverseArrey(int[] arr)
 
 // Программа
 int[] arrayNumb = CreateArrayRndInt(10, -10, 10);
-PrintArrey(arrayNumb);
-InverseArrey(arrayNumb);
-PrintArrey(arrayNumb);
+PrintArray(arrayNumb);
+InverseArray(arrayNumb);
+PrintArray(arrayNumb);

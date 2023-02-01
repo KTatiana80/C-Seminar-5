@@ -20,7 +20,7 @@ int[] CreateArrayRndInt(int size, int min, int max)
 }
 
 // Метод вывода массива
-void PrintArrey (int[] array)
+void PrintArray (int[] array)
 {
     Console.Write("[");
     for (int i = 0; i < array.Length; i++)
@@ -46,6 +46,6 @@ int[] ArrayProductNumberFirstLast(int[] array)
 }
 
 int[] arr = CreateArrayRndInt(5, 0, 10);
-PrintArrey(arr);
+PrintArray(arr);
 int[] arrNew = ArrayProductNumberFirstLast(arr);
-PrintArrey(arrNew);
+PrintArray(arrNew);
