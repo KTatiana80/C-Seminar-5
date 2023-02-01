@@ -16,6 +16,7 @@ double[] CreateArrayRndDoudle(int size, int min, int max)
     return array;
 }
 
+
 void PrintArrayDouble(double[] array)
 {
     Console.Write("[");
@@ -26,6 +27,7 @@ void PrintArrayDouble(double[] array)
     }
     Console.Write("]");
 }
+
 
 double GetMin(double[] arrayNumb)
 {
@@ -41,6 +43,7 @@ double GetMin(double[] arrayNumb)
     return result;
 }
 
+
 double GetMax(double[] arrayNumb)
 {
     double result = arrayNumb[0];
@@ -54,6 +57,7 @@ double GetMax(double[] arrayNumb)
     }
     return result;
 }
+
 
 double[] arrayNumb = CreateArrayRndDoudle(10, 0, 100);
 PrintArrayDouble(arrayNumb);

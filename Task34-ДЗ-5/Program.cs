@@ -4,6 +4,7 @@
 
 // [345, 897, 568, 234] -> 2
 
+
 int[] CreateArrayRndInt(int size, int min, int max)
 {
     int[] array = new int[size];
@@ -14,6 +15,7 @@ int[] CreateArrayRndInt(int size, int min, int max)
     }
     return array;
 }
+
 
 void PrintArray(int[] array)
 {
@@ -39,6 +41,7 @@ int QuantityEvenNumbers(int[] array)
     }
     return count;
 }
+
 
 int[] arrayNumb = CreateArrayRndInt(10, 99, 1000);
 int count = QuantityEvenNumbers(arrayNumb);
